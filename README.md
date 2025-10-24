@@ -3,7 +3,8 @@
 
 O **DepSec** é um serviço backend desenvolvido em **Micronaut + Groovy**, com o objetivo de **analisar vulnerabilidades de segurança em pacotes NPM**.  
 Ele integra fontes públicas de dados de segurança, como o **Sonatype OSS Index** e o **GitHub Security Advisories**, consolidando informações relevantes em um formato unificado e de fácil consulta.
-
+Este serviço backend trabalha ao lado da [DepSec Extension](https://github.com/rivailaraujo/DepSec-extension)
+para exibição dos resultados.
 ---
 
 ## 🚀 Funcionalidades

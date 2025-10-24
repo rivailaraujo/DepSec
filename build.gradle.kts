@@ -17,6 +17,7 @@ dependencies {
     implementation("io.micronaut.serde:micronaut-serde-jackson")
 
     implementation("org.apache.groovy:groovy-json:4.0.21")
+    implementation("com.vdurmont:semver4j:3.1.0")
 
     compileOnly("io.micronaut:micronaut-http-client")
     compileOnly("io.micronaut:micronaut-http-validation")
